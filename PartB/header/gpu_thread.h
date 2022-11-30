@@ -30,8 +30,8 @@ __global__ void rmm(int N,int* d_A,int* d_B,int* d_C)
 
 void gpuThread(int N, int *matA, int *matB, int *output)
 {	
-	// int sizeb = min(N/2,16);
-	int sizeb	 = 32;
+	int sizeb = min(N/2,16);
+// 	int sizeb	 = 32;
 	dim3 block(sizeb,sizeb);
 	dim3 grid(N/(2*sizeb),N/(2*sizeb));
 
