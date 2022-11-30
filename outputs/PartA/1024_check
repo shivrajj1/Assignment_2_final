@@ -1,0 +1,38 @@
+
+Input matrix of size 1024
+Reference execution time: 5256.75 ms
+No of L1 cache read misses : 450984952/12619918892
+No of Last Level cache read misses : 561727/267550020
+No of Page Faults : 415
+
+Cache Friendly single thread execution time: 2762.55 ms
+No of L1 cache read misses : 34851007/12632496099
+No of Last Level cache read misses : 60296/1516303
+No of Page Faults : 1281
+
+Single thread vectorized execution time: 824.314 ms
+No of L1 cache read misses : 35021116/2137277342
+No of Last Level cache read misses : 101641/1431878
+No of Page Faults : 1420
+
+Multi-threaded with total : 4 threads execution time: 216.384 ms
+No of L1 cache read misses : 1053265/12594950
+No of Last Level cache read misses : 66157/1049451
+No of Page Faults : 2066
+
+Multi-threaded with total : 8 threads execution time: 117.135 ms
+No of L1 cache read misses : 1054001/12594413
+No of Last Level cache read misses : 66209/1049699
+No of Page Faults : 1034
+
+Multi-threaded with total : 16 threads execution time: 65.872 ms
+No of L1 cache read misses : 1054242/12596441
+No of Last Level cache read misses : 66041/1049569
+No of Page Faults : 1050
+
+Multi-threaded with total : 32 threads execution time: 61.366 ms
+No of L1 cache read misses : 1056862/12603139
+No of Last Level cache read misses : 46710/1050379
+No of Page Faults : 1082
+
+Success!! All optimizations ran to completion

@@ -1,0 +1,24 @@
+./cmm_server data/input_128.in
+Input matrix of size 128
+GPU Time: 383.73ms
+./cmm_server data/input_256.in
+Input matrix of size 256
+GPU Time: 489.206ms
+./cmm_server data/input_512.in
+Input matrix of size 512
+GPU Time: 631.085ms
+./cmm_server data/input_1024.in
+Input matrix of size 1024
+GPU Time: 482.533ms
+./cmm_server data/input_2048.in
+Input matrix of size 2048
+GPU Time: 439.093ms
+./cmm_server data/input_4096.in
+Input matrix of size 4096
+GPU Time: 663.191ms
+./cmm_server data/input_8192.in
+Input matrix of size 8192
+GPU Time: 1233.91ms
+./cmm_server data/input_16384.in
+Input matrix of size 16384
+GPU Time: 4787.89ms

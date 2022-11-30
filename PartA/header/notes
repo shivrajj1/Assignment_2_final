@@ -1,0 +1,2 @@
+_mm512_reduce_add_ps() : To add all elements of a vector to a single element
+ex : float sum = _mm512_reduce_add_ps (sumx16);

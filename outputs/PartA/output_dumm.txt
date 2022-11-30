@@ -1,0 +1,274 @@
+./rmm data/input_16.in
+
+Input matrix of size 16
+Reference execution time: 39.471 ms
+No of L1 cache read misses : 47/49029
+No of Last Level cache read misses : 6/8
+No of Page Faults : 0
+
+Cache Friendly single thread execution time: 0.059 ms
+No of L1 cache read misses : 89/52254
+No of Last Level cache read misses : 3/9
+No of Page Faults : 0
+
+Single thread vectorized execution time: 0.063 ms
+No of L1 cache read misses : 96/13992
+No of Last Level cache read misses : 0/9
+No of Page Faults : 0
+
+Multi-threaded with total : 4 threads execution time: 0.289 ms
+No of L1 cache read misses : 702/5760
+No of Last Level cache read misses : 96/255
+No of Page Faults : 8
+
+Multi-threaded with total : 8 threads execution time: 0.369 ms
+No of L1 cache read misses : 1236/7282
+No of Last Level cache read misses : 51/415
+No of Page Faults : 9
+
+Multi-threaded with total : 16 threads execution time: 0.621 ms
+No of L1 cache read misses : 1934/9240
+No of Last Level cache read misses : 0/363
+No of Page Faults : 25
+
+Multi-threaded with total : 32 threads execution time: 1.178 ms
+No of L1 cache read misses : 4144/16138
+No of Last Level cache read misses : 5/672
+No of Page Faults : 58
+
+Success!! All optimizations ran to completion
+./rmm data/input_64.in
+
+Input matrix of size 64
+Reference execution time: 3.55 ms
+No of L1 cache read misses : 656/3093693
+No of Last Level cache read misses : 0/38
+No of Page Faults : 0
+
+Cache Friendly single thread execution time: 0.778 ms
+No of L1 cache read misses : 1096/3143291
+No of Last Level cache read misses : 0/108
+No of Page Faults : 4
+
+Single thread vectorized execution time: 0.338 ms
+No of L1 cache read misses : 1244/607834
+No of Last Level cache read misses : 0/79
+No of Page Faults : 4
+
+Multi-threaded with total : 4 threads execution time: 0.34 ms
+No of L1 cache read misses : 1082/52098
+No of Last Level cache read misses : 7/304
+No of Page Faults : 12
+
+Multi-threaded with total : 8 threads execution time: 19.262 ms
+No of L1 cache read misses : 1609/53611
+No of Last Level cache read misses : 51/481
+No of Page Faults : 12
+
+Multi-threaded with total : 16 threads execution time: 7.956 ms
+No of L1 cache read misses : 2384/55573
+No of Last Level cache read misses : 35/492
+No of Page Faults : 29
+
+Multi-threaded with total : 32 threads execution time: 16.017 ms
+No of L1 cache read misses : 4359/62305
+No of Last Level cache read misses : 31/792
+No of Page Faults : 62
+
+Success!! All optimizations ran to completion
+./rmm data/input_128.in
+
+Input matrix of size 128
+Reference execution time: 9.986 ms
+No of L1 cache read misses : 536409/24695147
+No of Last Level cache read misses : 4/104
+No of Page Faults : 0
+
+Cache Friendly single thread execution time: 7.424 ms
+No of L1 cache read misses : 80344/24892566
+No of Last Level cache read misses : 7/286
+No of Page Faults : 19
+
+Single thread vectorized execution time: 1.987 ms
+No of L1 cache read misses : 79733/4494438
+No of Last Level cache read misses : 18/200
+No of Page Faults : 19
+
+Multi-threaded with total : 4 threads execution time: 1.401 ms
+No of L1 cache read misses : 17267/199931
+No of Last Level cache read misses : 53/355
+No of Page Faults : 24
+
+Multi-threaded with total : 8 threads execution time: 0.804 ms
+No of L1 cache read misses : 17811/201415
+No of Last Level cache read misses : 41/534
+No of Page Faults : 24
+
+Multi-threaded with total : 16 threads execution time: 14.505 ms
+No of L1 cache read misses : 18661/203420
+No of Last Level cache read misses : 8/553
+No of Page Faults : 41
+
+Multi-threaded with total : 32 threads execution time: 12.291 ms
+No of L1 cache read misses : 20634/210127
+No of Last Level cache read misses : 53/965
+No of Page Faults : 74
+
+Success!! All optimizations ran to completion
+./rmm data/input_256.in
+
+Input matrix of size 256
+Reference execution time: 59.494 ms
+No of L1 cache read misses : 5004431/197346542
+No of Last Level cache read misses : 268/867754
+No of Page Faults : 0
+
+Cache Friendly single thread execution time: 43.579 ms
+No of L1 cache read misses : 584823/198134546
+No of Last Level cache read misses : 312/43120
+No of Page Faults : 80
+
+Single thread vectorized execution time: 13.807 ms
+No of L1 cache read misses : 584187/34490806
+No of Last Level cache read misses : 1998/39102
+No of Page Faults : 80
+
+Multi-threaded with total : 4 threads execution time: 4.358 ms
+No of L1 cache read misses : 66533/790481
+No of Last Level cache read misses : 706/26511
+No of Page Faults : 73
+
+Multi-threaded with total : 8 threads execution time: 2.664 ms
+No of L1 cache read misses : 67293/792042
+No of Last Level cache read misses : 120/27107
+No of Page Faults : 73
+
+Multi-threaded with total : 16 threads execution time: 2.636 ms
+No of L1 cache read misses : 68093/794068
+No of Last Level cache read misses : 61/27119
+No of Page Faults : 90
+
+Multi-threaded with total : 32 threads execution time: 2.508 ms
+No of L1 cache read misses : 70241/800748
+No of Last Level cache read misses : 75/27425
+No of Page Faults : 122
+
+Success!! All optimizations ran to completion
+./rmm data/input_512.in
+
+Input matrix of size 512
+Reference execution time: 693.771 ms
+No of L1 cache read misses : 62743853/1577917010
+No of Last Level cache read misses : 8261/33448894
+No of Page Faults : 0
+
+Cache Friendly single thread execution time: 356.836 ms
+No of L1 cache read misses : 4464426/1581062437
+No of Last Level cache read misses : 2142/452518
+No of Page Faults : 321
+
+Single thread vectorized execution time: 91.338 ms
+No of L1 cache read misses : 4464759/270079371
+No of Last Level cache read misses : 17077/401777
+No of Page Faults : 321
+
+Multi-threaded with total : 4 threads execution time: 27.411 ms
+No of L1 cache read misses : 263592/3151478
+No of Last Level cache read misses : 4349/262565
+No of Page Faults : 265
+
+Multi-threaded with total : 8 threads execution time: 16.055 ms
+No of L1 cache read misses : 264180/3152987
+No of Last Level cache read misses : 967/262743
+No of Page Faults : 265
+
+Multi-threaded with total : 16 threads execution time: 15.627 ms
+No of L1 cache read misses : 264816/3154956
+No of Last Level cache read misses : 530/262682
+No of Page Faults : 282
+
+Multi-threaded with total : 32 threads execution time: 10.453 ms
+No of L1 cache read misses : 267255/3161770
+No of Last Level cache read misses : 549/263128
+No of Page Faults : 314
+
+Success!! All optimizations ran to completion
+./rmm data/input_1024.in
+
+Input matrix of size 1024
+Reference execution time: 5128.34 ms
+No of L1 cache read misses : 450046210/12619915284
+No of Last Level cache read misses : 179505/268481218
+No of Page Faults : 968
+
+Cache Friendly single thread execution time: 2580.66 ms
+No of L1 cache read misses : 34830299/12632485933
+No of Last Level cache read misses : 10773/1516816
+No of Page Faults : 1309
+
+Single thread vectorized execution time: 768.731 ms
+No of L1 cache read misses : 34965316/2137275372
+No of Last Level cache read misses : 76413/1414073
+No of Page Faults : 1281
+
+Multi-threaded with total : 4 threads execution time: 206.838 ms
+No of L1 cache read misses : 1052789/12592801
+No of Last Level cache read misses : 65976/1049472
+No of Page Faults : 1036
+
+Multi-threaded with total : 8 threads execution time: 116.93 ms
+No of L1 cache read misses : 1053319/12594433
+No of Last Level cache read misses : 31845/1049684
+No of Page Faults : 1034
+
+Multi-threaded with total : 16 threads execution time: 63.26 ms
+No of L1 cache read misses : 1054079/12596353
+No of Last Level cache read misses : 38874/1049559
+No of Page Faults : 1050
+
+Multi-threaded with total : 32 threads execution time: 57.166 ms
+No of L1 cache read misses : 1056715/12603113
+No of Last Level cache read misses : 7503/1050343
+No of Page Faults : 1082
+
+Success!! All optimizations ran to completion
+./rmm data/input_2048.in
+
+Input matrix of size 2048
+Reference execution time: 43926.3 ms
+No of L1 cache read misses : 4383963659/100945774509
+No of Last Level cache read misses : 9236150/2162132171
+No of Page Faults : 31629
+
+Cache Friendly single thread execution time: 21613.3 ms
+No of L1 cache read misses : 316037861/100995933634
+No of Last Level cache read misses : 1066022/7545156
+No of Page Faults : 13337
+
+Single thread vectorized execution time: 6120.94 ms
+No of L1 cache read misses : 354712633/17004839897
+No of Last Level cache read misses : 393756/6455055
+No of Page Faults : 12535
+
+Multi-threaded with total : 4 threads execution time: 1627.3 ms
+No of L1 cache read misses : 5027647/50357334
+No of Last Level cache read misses : 262835/4211057
+No of Page Faults : 4119
+
+Multi-threaded with total : 8 threads execution time: 995.119 ms
+No of L1 cache read misses : 5010569/50364118
+No of Last Level cache read misses : 270072/4211480
+No of Page Faults : 8203
+
+Multi-threaded with total : 16 threads execution time: 664.491 ms
+No of L1 cache read misses : 4994281/50358410
+No of Last Level cache read misses : 269356/4211348
+No of Page Faults : 4122
+
+Multi-threaded with total : 32 threads execution time: 447.919 ms
+No of L1 cache read misses : 5044590/50366934
+No of Last Level cache read misses : 263307/4211509
+No of Page Faults : 4154
+
+Success!! All optimizations ran to completion
+./rmm data/input_4096.in
